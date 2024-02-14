@@ -5,8 +5,8 @@
     "target": "ESNext",
     "module": "ESNext",
     "outDir": "./dist",
-    "rootDir": "./",
-    "baseUrl": "./",
+    "rootDir": "./src",
+    "baseUrl": "./src",
     "paths": {
       "@*": ["./*"]
     },
@@ -26,6 +26,6 @@
       "outputCheck": ["js", "json", "jsx", "mjs"]
     }
   },
-  "include": ["**/*.ts", "**/*.js" , "**/*.json", "**/*.jsx",  "**/*.tsx", ],
+  "include": ["**/*.ts", "**/*.js", "**/*.json", "**/*.jsx", "**/*.tsx"],
   "exclude": ["node_modules"]
 }
