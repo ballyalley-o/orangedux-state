@@ -1,11 +1,15 @@
+import { Action } from '@constant/enum'
+
 export interface SearchRepositoryAction {
-  type: 'search_respository'
+  type: Action.SEARCH_REPOSITORY
 }
 
 export interface SearchRepositorySuccessAction {
-  type: 'search_repository_success'
+  type: Action.SEARCH_REPOSITORY_SUCCESS
+  payload: string[]
 }
 
 export interface SearchRepositoryErrorAction {
-  type: 'search_repository_error'
+  type: Action.SEARCH_REPOSITORY_ERROR
+  payload: string
 }
