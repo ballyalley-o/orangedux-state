@@ -2,7 +2,7 @@ import {
   SearchRepositoryAction,
   SearchRepositorySuccessAction,
   SearchRepositoryErrorAction,
-} from '@interface/reducer'
+} from '../interface/reducer'
 
 export type ActionType =
   | SearchRepositoryAction
