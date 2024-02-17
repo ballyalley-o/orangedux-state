@@ -1,22 +1,26 @@
 {
   "compilerOptions": {
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "lib": ["dom", "dom.iterable", "ESNext"],
     "target": "ESNext",
     "module": "ESNext",
-    "outDir": "./dist",
     "rootDir": "./src",
     "baseUrl": "./src",
     "paths": {
-      "@*": ["./*"]
+      "@*": ["*"]
     },
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "noResolve": false,
-    "skipLibCheck": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "incremental": true,
+    "allowJs": true,
+    "skipLibCheck": true,
     "esModuleInterop": true,
+    "strict": true,
     "resolveJsonModule": true,
-    "strict": true
+    "isolatedModules": true,
+    "noEmit": true
   },
   "tsc-alias": {
     "verbose": false,
